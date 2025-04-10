@@ -1,0 +1,221 @@
+<html>
+
+<style>
+    body {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(bilder/bilde1.jpg);
+        background-size: cover;
+    }
+
+    .sec3 {
+        background-color: #f9f9f9;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(bilder/bilde1.jpg);
+        background-size: cover;
+    }
+
+
+
+    .komphead {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 40px;
+        color: white;
+    }
+
+    .komphead1 {
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 60px;
+        color: white;
+    }
+
+    .komp {
+        display: flex;
+        gap: 150px;
+        margin: 20px 0;
+        justify-content: center;
+
+    }
+
+    .komphead2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .box {
+        padding: 15px;
+        border-radius: 30px;
+        background-color: white;
+        height: 300px;
+        width: 500px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        border: solid rgb(242, 242, 242) 2px;
+        box-shadow: 3px 3px 8px rgba(0, 0, 0.2);
+        transition: transform 0.3s, box-shadow 0.3s;
+
+    }
+
+    .box:hover {
+        transform: scale(1.1) translateY(-0px);
+        background-color: #f0f8ff;
+
+    }
+
+    .p1 {
+        font-size: 20px;
+        text-align: center;
+        color: black;
+        line-height: 1.9;
+    }
+
+    .row1 {
+        display: flex;
+        justify-content: center;
+        overflow-x: auto;
+
+    }
+
+    .row1 img {
+        height: 300px;
+        border: 1px solid white;
+        border-radius: 10px;
+        margin: 10px;
+
+    }
+
+    .rowcontainer {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
+    .slide img {
+        width: 100%;
+        border-radius: 10px;
+        display: block;
+    }
+
+    .fade {
+        animation: fadeIn 4s ease forwards;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .footer {
+        background-color: #191919;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        border-top: solid 1px #f0f8ff;
+
+    }
+
+    .p5 {text-align: center;}
+
+    .footer ul {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        width: 250px;
+        margin: auto;
+        list-style: none;
+
+    }
+
+    .footer a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+
+    .footer li a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+
+<body>
+    <section class="sec3">
+
+        <div class="fade">
+            <h3 class="komphead">To Typer Kompresjon Av Bilder</h3>
+
+            <div class="komp">
+                <div class="box">
+                    <h3 class="komphead2">Tapfri Kompresjon</h3>
+                    <p class="p1">Tapfri kompresjon er en metode som reduserer filstørrelsen uten å miste noen data,
+                        noe som betyr at den originale kvaliteten kan gjenopprettes helt.
+                        Vanlige formater for tapfri kompresjon inkluderer PNG og TIFF.</p>
+                    <img src="">
+                </div>
+                <div class="box">
+                    <h3 class="komphead2">Destruktiv Kompresjon</h3>
+                    <p class="p1">Destruktiv kompresjon fjerner noen data fra filen for å oppnå en betydelig reduksjon i
+                        størrelse,
+                        noe som kan føre til tap av kvalitet, spesielt ved gjentatt lagring.
+                        Populære formater for destruktiv kompresjon inkluderer JPEG og MP3.</p>
+                    <img src="">
+                </div>
+            </div>
+
+            <h3 class="komphead1">Komprimerte Bilde Eksempler:</h3>
+        </div>
+        <div class="fade">
+            <div class="rowcontainer">
+                <div class="row1">
+
+                    <img src="bilder/bilde2.png" alt="">
+
+                    <img src="bilder/bilde3.png" alt="">
+
+                    <img src="bilder/bilde4.png" alt="">
+
+                    <img src="bilder/bilde5.png" alt="">
+
+                    <img src="bilder/bilde6.png" alt="">
+
+                    <img src="bilder/bilde7.png" alt="">
+
+                    <img src="bilder/bilde8.png" alt="">
+
+                    <img src="bilder/bilde9.png" alt="">
+
+                </div>
+            </div>
+            <div class="fade">
+    </section>
+<br>
+<br>
+    <footer class="footer">
+        <div>
+            <p class="p5">&copy; 2024 Bilder. Alle rettigheter forbeholdt.</p>
+            <ul>
+                <li><a href="side2.html">Hjemside</a></li>
+                <li><a href="">Bildepunkter</a></li>
+                <li><a href="side1.html">Startside</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
